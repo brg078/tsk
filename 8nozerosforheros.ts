@@ -1,5 +1,5 @@
 export function noBoringZeros(n: number): number {
-    const nReversed = n.toString().split("").reverse().join("");
-    console.log(nReversed);
+    //n
+    //return Number(Number(n.toString().split("").reverse().join(""))toString().split("").reverse());
     return n;
 }
