@@ -1,5 +1,5 @@
+//TODO https://www.codewars.com/kata/58d248c7012397a81800005c/train/typescript
 
-//https://www.codewars.com/kata/58d248c7012397a81800005c/train/typescript
 
 export function cubeChecker(volume: number, side: number): boolean{
 
@@ -10,3 +10,10 @@ export function cubeChecker(volume: number, side: number): boolean{
     }
     
 }
+
+
+//? Top Solution
+//* export function cubeChecker(volume: number, side: number): boolean {
+//*     return volume > 0 ? volume === side ** 3 : false;
+//*   }
+//! cleans into ternary, less code less readable doesn't account for side = 0
