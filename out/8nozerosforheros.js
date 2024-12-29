@@ -5,7 +5,7 @@ exports.noBoringZeros = noBoringZeros;
 function noBoringZeros(n) {
     //console.log('noBoringZeros n: ',n)
     let nReverse = Number(Math.abs(n).toString().split("").reverse().join(""));
-    console.log('nReverse as a Number: ', nReverse);
+    //console.log('nReverse as a Number: ', nReverse);
     let nForward = Number(nReverse.toString().split("").reverse().join(""));
     console.log('nForward as a Number: ', nForward);
     return n > 0 ? nForward : -(nForward);

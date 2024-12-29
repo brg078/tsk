@@ -8,7 +8,7 @@ export function noBoringZeros(n: number): number {
     //console.log('nReverse as a Number: ', nReverse);
 
     let nForward = Number(nReverse.toString().split("").reverse().join(""));
-    //console.log('nForward as a Number: ', nForward);
+    console.log('nForward as a Number: ', nForward);
 
     return n>0 ?  nForward : -(nForward);
 }
