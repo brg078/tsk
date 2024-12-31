@@ -1,12 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 //import { noBoringZeros } from "./8nozerosforheros"
-const cubeChecker_1 = require("./cubeChecker");
+const needleInTheHaystack_1 = require("./needleInTheHaystack");
 //console.log('in index.js')
-console.log((0, cubeChecker_1.cubeChecker)(1, 1));
-console.log((0, cubeChecker_1.cubeChecker)(8, 2));
-console.log((0, cubeChecker_1.cubeChecker)(27, 3));
-console.log((0, cubeChecker_1.cubeChecker)(0, 35));
-console.log((0, cubeChecker_1.cubeChecker)(452, 1));
-console.log((0, cubeChecker_1.cubeChecker)(785, 0));
+console.log((0, needleInTheHaystack_1.findNeedle)(['3', '123124234', null, 'needle', 'world', 'hay', 2, '3', true, false]));
 //# sourceMappingURL=index.js.map
