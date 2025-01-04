@@ -1,7 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-//import { noBoringZeros } from "./8nozerosforheros"
-const needleInTheHaystack_1 = require("./needleInTheHaystack");
+const smallestUnusedID_1 = require("./smallestUnusedID");
 //console.log('in index.js')
-console.log((0, needleInTheHaystack_1.findNeedle)(['3', '123124234', null, 'needle', 'world', 'hay', 2, '3', true, false]));
+console.log((0, smallestUnusedID_1.nextId)([0, 1, 2, 2, 3, 5]));
+console.log((0, smallestUnusedID_1.nextId)([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+console.log((0, smallestUnusedID_1.nextId)([24, 2, 26, 20, 21, 19]));
 //# sourceMappingURL=index.js.map
