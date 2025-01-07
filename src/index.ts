@@ -1,10 +1,9 @@
 //console.log('in index.js');
 
-//import { nextId } from "./smallestUnusedID";
+import { remove } from "./exclamationMarks";
 
 
 
 
 
-
-console.log(());
+console.log(remove("Hi! Hi!")); //expecting Hi Hi!
