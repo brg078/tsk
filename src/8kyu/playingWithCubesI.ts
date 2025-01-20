@@ -9,15 +9,15 @@ class Cube {
       this.setSide(num)
     }
     
-    public getSide(): number {
-      return this._side;
-    }
+    //public getSide(): number {
+     // return this._side;
+    //}
   
     public setSide(value: number) {
-      this._side = Math.abs(value);
+     // this._side = Math.abs(value);
     }
   
-    private _side: number;
+    //private _side: number;
   
   }
 //*export function

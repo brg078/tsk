@@ -6,11 +6,11 @@ class Cube {
     constructor(num = 0) {
         this.setSide(num);
     }
-    getSide() {
-        return this._side;
-    }
+    //public getSide(): number {
+    // return this._side;
+    //}
     setSide(value) {
-        this._side = Math.abs(value);
+        // this._side = Math.abs(value);
     }
 }
 //*export function
